@@ -1,0 +1,66 @@
+/* Apply background image to the whole page */
+body {
+    background: url("/static/background1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the main content */
+.container {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styling the table */
+.table {
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    border-radius: 10px;
+    color: white;
+}
+
+/* Table Headers */
+.table thead {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"] {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(31, 25, 25);
+    border: 1px solid white;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+}
+
+/* Make text inputs more readable */
+input::placeholder {
+    color: white;
+}
+
+/* Improve button hover effects */
+.btn:hover {
+    opacity: 0.8;
+}
